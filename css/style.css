@@ -9,11 +9,20 @@ body {
     color: white;
 }
 .container {
-    width: 300px;
+    width: 800px;
+    height: 800px;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 8px;
+    overflow-y: auto;
+    
+
 }
+
+.container2{
+    display: flex;
+}
+
 input[type="text"] {
     width: calc(100% - 90px);
     padding: 10px;
@@ -21,8 +30,11 @@ input[type="text"] {
     border: none;
     border-radius: 5px;
 }
+
+
 button {
     padding: 10px;
+    margin: 15px;
     border: none;
     border-radius: 5px;
     background-color: #1abc9c;
@@ -37,6 +49,7 @@ button {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+
 }
 
 
